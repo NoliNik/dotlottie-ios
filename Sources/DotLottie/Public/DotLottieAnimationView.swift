@@ -1,6 +1,6 @@
 #if os(iOS)
 
-import Foundationhttps://github.com/NoliNik/dotlottie-ios/blob/memory_leak_fix/Sources/DotLottie/Public/DotLottieAnimationView.swift
+import Foundation
 import UIKit
 import Metal
 import MetalKit
