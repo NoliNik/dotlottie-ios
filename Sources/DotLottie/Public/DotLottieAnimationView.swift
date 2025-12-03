@@ -1,6 +1,6 @@
 #if os(iOS)
 
-import Foundation
+import Foundationhttps://github.com/NoliNik/dotlottie-ios/blob/memory_leak_fix/Sources/DotLottie/Public/DotLottieAnimationView.swift
 import UIKit
 import Metal
 import MetalKit
@@ -9,7 +9,7 @@ import AVFoundation
 import Combine
 
 // UIKit animation view
-public class DotLottieAnimationView: UIView, DotLottie {
+open class DotLottieAnimationView: UIView, DotLottie {
     private var mtkView: MTKView!
     private var coordinator: Coordinator!
     private var cancellableBag = Set<AnyCancellable>()
